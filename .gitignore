@@ -1,0 +1,21 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+
+# Generated outputs
+*.xlsx
+*.pkl
+*.sav
