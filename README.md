@@ -51,5 +51,8 @@ pip install -r requirements.txt
 1. Buka folder proyek ini di **VS Code** atau **PyCharm**.
 2. Buka file `.ipynb` pada sub-folder yang ingin dipelajari, lalu pilih kernel Python dari **`.venv` (`Python 3.13 (.venv)`)** di pojok kanan atas notebook.
 3. Klik **Run All**. Notebook akan otomatis mendeteksi environment tempat kode dijalankan:
-   - **Di VS Code Lokal:** Menjalankan server Streamlit di *background* pada `http://localhost:8501` tanpa memblokir sel notebook.
+   - **Di VS Code Lokal:** Menjalankan server Streamlit di *background* pada port terpisah agar bisa dibuka bersamaan tanpa bentrok:
+     - `01-estimasi-harga-mobil`: `http://localhost:8501`
+     - `03-customer-clustering`: `http://localhost:8502`
+     - `04-market-basket-analysis`: `http://localhost:8503`
    - **Di Google Colab:** Mengunduh `cloudflared` dan membuka akses publik via tautan `.trycloudflare.com`.
