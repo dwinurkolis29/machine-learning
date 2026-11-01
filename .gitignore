@@ -19,3 +19,7 @@ env/
 *.xlsx
 *.pkl
 *.sav
+estimasi_mobil.py
+mall-customer.py
+apriori.py
+cloudflared*
