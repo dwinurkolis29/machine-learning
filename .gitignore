@@ -17,6 +17,7 @@ env/
 
 # Generated outputs
 *.xlsx
+!05-analisis-regresi/Data Analisis Regresi.xlsx
 *.pkl
 *.sav
 estimasi_mobil.py
